@@ -7,4 +7,4 @@ RUN php -r "unlink('composer-setup.php');"
 
 RUN apt -y update && apt -y install mariadb-server
 
-CMD /usr/bin/mysqld_safe
+CMD /usr/bin/mysqld_safe 
